@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/config.css" />
+    <link rel="stylesheet" href="styles/reg.css" />
+    <link rel="stylesheet" href="styles/login.css" />
+  </head>
+  <body>
+    <!--Layout structure for the register form => start -->
+    <section id="reg--con">
+      <form action="" method="post" class="reg--form">
+        <div class="fullname--con input--con">
+          <label for="fullname">fullname:</label>
+          <input type="text" name="fullname" id="fullname" placeholder="odunayo john"/>
+        </div>
+
+        <div class="email--con input--con">
+          <label for="email">email:</label>
+          <input type="email" name="email" id="email" placeholder="tunne@anything.com" />
+        </div>
+
+        <div class="address--con input--con">
+          <label for="address">address:</label>
+          <input type="text" name="adress" id="address" placeholder="1234street, any country." />
+        </div>
+
+        <div class="tel--con input--con">
+          <label for="tel">telephone no:</label>
+          <input type="tel" name="tel" id="tel" placeholder="0803 518 3572"/>
+        </div>
+
+        <div class="password--con input--con">
+          <label for="password">password:</label>
+          <input type="password" name="password" id="password" />
+           <div class="prefer">hide</div>
+        </div>
+
+        <div class="confirmPass--con input--con">
+          <label for="confirmPass">country:</label>
+          <input type="password" name="confirmPass" id="confirmPass" />
+         
+        </div>
+
+        <div class="agree--con input--con">
+          <input type="checkbox" name="agree" id="agree" />
+          <label for="agree" class="agr">
+            By selecting this option, you confirm your agreement to our Terms
+            of Service and Privacy Policy. You also consent to receiving emails
+            and updates related to your account.</label
+          >
+        </div>
+
+        <div class="submit--con input--con">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+    <!--Layout structure for the register form => end -->
+  </body>
+</html>
